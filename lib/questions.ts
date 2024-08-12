@@ -440,21 +440,6 @@ export const QUESTIONS: Question[] = [
     didAnswer: null,
   },
   {
-    question:
-      "Which class would you use to apply 16px vertical and 8px horizontal border spacing?",
-    answers: [
-      { answer: "border-spacing-y-4 border-spacing-x-2", isCorrect: false },
-      { answer: "border-spacing-4-2", isCorrect: false },
-      { answer: "border-spacing-y-4 border-spacing-x-1", isCorrect: false },
-      { answer: "border-spacing-y-4 border-spacing-x-2", isCorrect: true },
-    ],
-    correctAnswer: {
-      answer: "border-spacing-y-4 border-spacing-x-2",
-      isCorrect: true,
-    },
-    didAnswer: null,
-  },
-  {
     question: "How do you apply horizontal padding of 2rem?",
     answers: [
       { answer: "p-x-8", isCorrect: false },
@@ -658,6 +643,196 @@ export const QUESTIONS: Question[] = [
       { answer: "border-dark", isCorrect: false },
     ],
     correctAnswer: { answer: "border-black", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class makes an element's background color green?",
+    answers: [
+      { answer: "bg-green-300", isCorrect: true },
+      { answer: "background-green", isCorrect: false },
+      { answer: "bg-light-green", isCorrect: false },
+      { answer: "bg-green-dark", isCorrect: false },
+    ],
+    correctAnswer: { answer: "bg-green-300", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What class is used to apply a rounded border radius?",
+    answers: [
+      { answer: "rounded-md", isCorrect: true },
+      { answer: "border-radius-md", isCorrect: false },
+      { answer: "rounded-large", isCorrect: false },
+      { answer: "radius-md", isCorrect: false },
+    ],
+    correctAnswer: { answer: "rounded-md", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies a shadow effect to an element?",
+    answers: [
+      { answer: "shadow-lg", isCorrect: true },
+      { answer: "shadow-heavy", isCorrect: false },
+      { answer: "shadow-large", isCorrect: false },
+      { answer: "shadow-light", isCorrect: false },
+    ],
+    correctAnswer: { answer: "shadow-lg", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class sets the width to full?",
+    answers: [
+      { answer: "w-full", isCorrect: true },
+      { answer: "width-full", isCorrect: false },
+      { answer: "w-100", isCorrect: false },
+      { answer: "full-width", isCorrect: false },
+    ],
+    correctAnswer: { answer: "w-full", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class is used to add a linear gradient background?",
+    answers: [
+      { answer: "bg-gradient-to-r", isCorrect: true },
+      { answer: "bg-gradient", isCorrect: false },
+      { answer: "gradient-r", isCorrect: false },
+      { answer: "bg-gradient-linear", isCorrect: false },
+    ],
+    correctAnswer: { answer: "bg-gradient-to-r", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies a grid layout with two columns?",
+    answers: [
+      { answer: "grid-cols-2", isCorrect: true },
+      { answer: "grid-layout-2", isCorrect: false },
+      { answer: "cols-2", isCorrect: false },
+      { answer: "grid-2-cols", isCorrect: false },
+    ],
+    correctAnswer: { answer: "grid-cols-2", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What class sets the z-index of an element to a high value?",
+    answers: [
+      { answer: "z-50", isCorrect: true },
+      { answer: "z-high", isCorrect: false },
+      { answer: "z-100", isCorrect: false },
+      { answer: "z-top", isCorrect: false },
+    ],
+    correctAnswer: { answer: "z-50", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class makes an element's border color transparent?",
+    answers: [
+      { answer: "border-transparent", isCorrect: true },
+      { answer: "border-none", isCorrect: false },
+      { answer: "border-clear", isCorrect: false },
+      { answer: "border-opacity-0", isCorrect: false },
+    ],
+    correctAnswer: { answer: "border-transparent", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class controls the opacity of an element?",
+    answers: [
+      { answer: "opacity-75", isCorrect: true },
+      { answer: "transparency-75", isCorrect: false },
+      { answer: "opacity-high", isCorrect: false },
+      { answer: "visibility-75", isCorrect: false },
+    ],
+    correctAnswer: { answer: "opacity-75", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question:
+      "Which class applies a transition effect to an element's opacity?",
+    answers: [
+      { answer: "transition-opacity", isCorrect: true },
+      { answer: "opacity-transition", isCorrect: false },
+      { answer: "fade-transition", isCorrect: false },
+      { answer: "transition-opacity-effect", isCorrect: false },
+    ],
+    correctAnswer: { answer: "transition-opacity", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class is used to change the cursor to a pointer?",
+    answers: [
+      { answer: "cursor-pointer", isCorrect: true },
+      { answer: "pointer-cursor", isCorrect: false },
+      { answer: "cursor-hand", isCorrect: false },
+      { answer: "clickable", isCorrect: false },
+    ],
+    correctAnswer: { answer: "cursor-pointer", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question:
+      "What class applies padding only to the right side of an element?",
+    answers: [
+      { answer: "pr-4", isCorrect: true },
+      { answer: "padding-right-4", isCorrect: false },
+      { answer: "px-4", isCorrect: false },
+      { answer: "padding-r-4", isCorrect: false },
+    ],
+    correctAnswer: { answer: "pr-4", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class sets the opacity of an element to 50%?",
+    answers: [
+      { answer: "opacity-50", isCorrect: true },
+      { answer: "opacity-0.5", isCorrect: false },
+      { answer: "transparency-50", isCorrect: false },
+      { answer: "alpha-50", isCorrect: false },
+    ],
+    correctAnswer: { answer: "opacity-50", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question:
+      "Which class should you use to set the overflow behavior of an element to scroll only when needed?",
+    answers: [
+      { answer: "overflow-auto", isCorrect: true },
+      { answer: "overflow-scroll", isCorrect: false },
+      { answer: "overflow-hidden", isCorrect: false },
+      { answer: "scroll-auto", isCorrect: false },
+    ],
+    correctAnswer: { answer: "overflow-auto", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What class sets a fixed width of 3rem for an element?",
+    answers: [
+      { answer: "w-12", isCorrect: true },
+      { answer: "width-3rem", isCorrect: false },
+      { answer: "w-3rem", isCorrect: false },
+      { answer: "w-48", isCorrect: false },
+    ],
+    correctAnswer: { answer: "w-12", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What class applies a 2-pixel border width?",
+    answers: [
+      { answer: "border-2", isCorrect: true },
+      { answer: "border-width-2", isCorrect: false },
+      { answer: "border-thin", isCorrect: false },
+      { answer: "border-medium", isCorrect: false },
+    ],
+    correctAnswer: { answer: "border-2", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class adds padding on the top and bottom only?",
+    answers: [
+      { answer: "py-4", isCorrect: true },
+      { answer: "px-4", isCorrect: false },
+      { answer: "padding-md", isCorrect: false },
+      { answer: "padding-4", isCorrect: false },
+    ],
+    correctAnswer: { answer: "py-4", isCorrect: true },
     didAnswer: null,
   },
   {

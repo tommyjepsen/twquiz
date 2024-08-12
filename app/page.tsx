@@ -178,7 +178,7 @@ export default function Home() {
             </p>
             <Button onClick={tryOnMoreTime}>Start game</Button>
             <Button variant="ghost" onClick={onShareLinkToGame}>
-              Share link to game
+              Copy link to game
             </Button>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
               <Button onClick={tryOnMoreTime}>Try one more time</Button>
               <Button variant="ghost" onClick={onShareLinkToGame}>
-                Share link to game
+                Copy link to game
               </Button>
             </div>
             <div className="h-full  pl-6  max-w-[360px] gap-8 flex flex-col max-h-[480px] overflow-y-auto">
@@ -304,7 +304,7 @@ export default function Home() {
             <div className="w-full border-b pb-4">
               <span className="flex flex-row justify-between items-center">
                 <span className="font-normal text-lt text-zinc-600 dark:text-zinc-400">
-                  Question {questionNumber + 1}
+                  Question {questionNumber + 1} out of {questions.length}
                 </span>
               </span>
             </div>
@@ -316,7 +316,7 @@ export default function Home() {
 
             {questions[questionNumber]?.answers.map((answer, index) => (
               <div className="flex items-center gap-4" key={index}>
-                <span className="text-xs w-4 text-zinc-400">{index}</span>
+                <span className="text-xs w-4 text-zinc-400">{index+1}</span>
                 <Button
                   onClick={() => onAnswer(answer)}
                   variant="secondary"
