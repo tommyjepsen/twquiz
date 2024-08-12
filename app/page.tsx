@@ -167,10 +167,10 @@ export default function Home() {
       </div>
       {isWelcome && (
         <div
-          className="absolute z-10  left-0 right-0 top-0 bottom-0 bg-muted/50 backdrop-blur-sm flex justify-center items-center"
+          className="absolute z-10  left-0 right-0 top-0 bottom-0 bg-zinc-800/40 backdrop-blur-sm flex justify-center items-center"
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="w-[360px] bg-zinc-200 dark:bg-accent rounded-xl p-6 flex flex-col gap-2">
+          <div className="w-[360px] shadow-xl bg-zinc-100 border dark:bg-accent rounded-xl p-6 flex flex-col gap-2">
             <h1 className="text-2xl">Tailwind expert?</h1>
             <p className="opacity-70 mb-6">
               Take my quiz about Tailwind classes and see how many correct
@@ -185,10 +185,10 @@ export default function Home() {
       )}
       {isTimesUp && (
         <div
-          className="absolute z-10  left-0 right-0 top-0 bottom-0 bg-muted/50 backdrop-blur-sm flex justify-center items-center"
+          className="absolute z-10 left-0 right-0 top-0 bottom-0 bg-zinc-800/40 backdrop-blur-sm flex justify-center items-center"
           onClick={(e) => e.stopPropagation()}
         >
-          <div className=" bg-zinc-100 border flex-row dark:bg-accent rounded-xl p-6 flex gap-2">
+          <div className=" bg-zinc-100 border flex-row dark:bg-accent shadow-xl rounded-xl p-6 flex gap-2">
             <div className="w-[360px] border-r p-6 flex flex-col gap-2">
               <h1 className="text-2xl">Tailwind expert?</h1>
               <p className="opacity-70">Let{"'"}s take a look at your scores</p>
@@ -316,7 +316,7 @@ export default function Home() {
 
             {questions[questionNumber]?.answers.map((answer, index) => (
               <div className="flex items-center gap-4" key={index}>
-                <span className="text-xs w-4 text-zinc-400">{index+1}</span>
+                <span className="text-xs w-4 text-zinc-400">{index + 1}</span>
                 <Button
                   onClick={() => onAnswer(answer)}
                   variant="secondary"

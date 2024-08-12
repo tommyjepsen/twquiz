@@ -15,10 +15,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "How many pixels height is `h-48`?",
     answers: [
-      { answer: "192px", isCorrect: true },
       { answer: "184px", isCorrect: false },
       { answer: "180px", isCorrect: false },
       { answer: "188px", isCorrect: false },
+      { answer: "192px", isCorrect: true },
     ],
     correctAnswer: { answer: "192px", isCorrect: true },
     didAnswer: null,
@@ -26,9 +26,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "What is the height in pixels of the class `h-64`?",
     answers: [
-      { answer: "256px", isCorrect: true },
       { answer: "240px", isCorrect: false },
       { answer: "232px", isCorrect: false },
+      { answer: "256px", isCorrect: true },
       { answer: "248px", isCorrect: false },
     ],
     correctAnswer: { answer: "256px", isCorrect: true },
@@ -37,8 +37,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "How tall is an element with the `h-12` class?",
     answers: [
-      { answer: "48px", isCorrect: true },
       { answer: "40px", isCorrect: false },
+      { answer: "48px", isCorrect: true },
       { answer: "44px", isCorrect: false },
       { answer: "42px", isCorrect: false },
     ],
@@ -48,8 +48,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What is the height in pixels of `h-20`?",
     answers: [
-      { answer: "80px", isCorrect: true },
       { answer: "72px", isCorrect: false },
+      { answer: "80px", isCorrect: true },
       { answer: "76px", isCorrect: false },
       { answer: "84px", isCorrect: false },
     ],
@@ -59,8 +59,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which height class corresponds to 32 pixels?",
     answers: [
-      { answer: "h-8", isCorrect: true },
       { answer: "h-10", isCorrect: false },
+      { answer: "h-8", isCorrect: true },
       { answer: "h-12", isCorrect: false },
       { answer: "h-6", isCorrect: false },
     ],
@@ -70,8 +70,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What is the pixel height of the `h-96` class?",
     answers: [
-      { answer: "384px", isCorrect: true },
       { answer: "368px", isCorrect: false },
+      { answer: "384px", isCorrect: true },
       { answer: "376px", isCorrect: false },
       { answer: "392px", isCorrect: false },
     ],
@@ -81,9 +81,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "How many pixels is the height of `h-72`?",
     answers: [
-      { answer: "288px", isCorrect: true },
-      { answer: "272px", isCorrect: false },
+      { answer: "300px", isCorrect: false },
       { answer: "280px", isCorrect: false },
+      { answer: "288px", isCorrect: true },
       { answer: "296px", isCorrect: false },
     ],
     correctAnswer: { answer: "288px", isCorrect: true },
@@ -93,8 +93,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class gives an element a height of 56 pixels?",
     answers: [
-      { answer: "h-14", isCorrect: true },
       { answer: "h-16", isCorrect: false },
+      { answer: "h-14", isCorrect: true },
       { answer: "h-12", isCorrect: false },
       { answer: "h-10", isCorrect: false },
     ],
@@ -105,9 +105,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "What height in pixels does `h-28` represent?",
     answers: [
-      { answer: "112px", isCorrect: true },
       { answer: "104px", isCorrect: false },
       { answer: "116px", isCorrect: false },
+      { answer: "112px", isCorrect: true },
       { answer: "108px", isCorrect: false },
     ],
     correctAnswer: { answer: "112px", isCorrect: true },
@@ -117,9 +117,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "How many pixels is the height for the `h-80` class?",
     answers: [
-      { answer: "320px", isCorrect: true },
       { answer: "304px", isCorrect: false },
       { answer: "312px", isCorrect: false },
+      { answer: "320px", isCorrect: true },
       { answer: "328px", isCorrect: false },
     ],
     correctAnswer: { answer: "320px", isCorrect: true },
@@ -150,8 +150,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class applies the default line-height?",
     answers: [
-      { answer: "leading-normal", isCorrect: true },
       { answer: "leading-default", isCorrect: false },
+      { answer: "leading-normal", isCorrect: true },
       { answer: "leading-base", isCorrect: false },
       { answer: "leading-regular", isCorrect: false },
     ],
@@ -161,9 +161,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class would you use for a line-height of 1.25?",
     answers: [
-      { answer: "leading-tight", isCorrect: true },
       { answer: "leading-snug", isCorrect: false },
       { answer: "leading-normal", isCorrect: false },
+      { answer: "leading-tight", isCorrect: true },
       { answer: "leading-relaxed", isCorrect: false },
     ],
     correctAnswer: { answer: "leading-tight", isCorrect: true },
@@ -172,9 +172,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class sets the line-height to 2?",
     answers: [
-      { answer: "leading-loose", isCorrect: true },
       { answer: "leading-wide", isCorrect: false },
       { answer: "leading-relaxed", isCorrect: false },
+      { answer: "leading-loose", isCorrect: true },
       { answer: "leading-double", isCorrect: false },
     ],
     correctAnswer: { answer: "leading-loose", isCorrect: true },
@@ -183,10 +183,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "What is the font size applied by the 'text-xl' class?",
     answers: [
-      { answer: "1.25rem (20px)", isCorrect: true },
       { answer: "1.5rem (24px)", isCorrect: false },
       { answer: "1rem (16px)", isCorrect: false },
       { answer: "1.75rem (28px)", isCorrect: false },
+      { answer: "1.25rem (20px)", isCorrect: true },
     ],
     correctAnswer: { answer: "1.25rem (20px)", isCorrect: true },
     didAnswer: null,
@@ -194,8 +194,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class applies a border radius of 0.5rem (8px)?",
     answers: [
-      { answer: "rounded-md", isCorrect: true },
       { answer: "rounded-sm", isCorrect: false },
+      { answer: "rounded-md", isCorrect: true },
       { answer: "rounded-lg", isCorrect: false },
       { answer: "rounded", isCorrect: false },
     ],
@@ -227,10 +227,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class sets the outline offset to 4px?",
     answers: [
-      { answer: "outline-offset-4", isCorrect: true },
       { answer: "outline-offset-md", isCorrect: false },
       { answer: "outline-offset-2", isCorrect: false },
       { answer: "outline-offset-lg", isCorrect: false },
+      { answer: "outline-offset-4", isCorrect: true },
     ],
     correctAnswer: { answer: "outline-offset-4", isCorrect: true },
     didAnswer: null,
@@ -238,8 +238,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class removes all border radius?",
     answers: [
-      { answer: "rounded-none", isCorrect: true },
       { answer: "rounded-zero", isCorrect: false },
+      { answer: "rounded-none", isCorrect: true },
       { answer: "rounded-sm", isCorrect: false },
       { answer: "rounded-clear", isCorrect: false },
     ],
@@ -250,9 +250,9 @@ export const QUESTIONS: Question[] = [
     question:
       "Which class will allow words to break and add hyphens where needed?",
     answers: [
-      { answer: "hyphens-auto", isCorrect: true },
       { answer: "hyphens-manual", isCorrect: false },
       { answer: "hyphens-break", isCorrect: false },
+      { answer: "hyphens-auto", isCorrect: true },
       { answer: "hyphens-none", isCorrect: false },
     ],
     correctAnswer: { answer: "hyphens-auto", isCorrect: true },
@@ -275,9 +275,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class applies a letter-spacing of 0.05em?",
     answers: [
-      { answer: "tracking-wider", isCorrect: true },
       { answer: "tracking-wide", isCorrect: false },
       { answer: "tracking-tighter", isCorrect: false },
+      { answer: "tracking-wider", isCorrect: true },
       { answer: "tracking-tight", isCorrect: false },
     ],
     correctAnswer: { answer: "tracking-wider", isCorrect: true },
@@ -286,10 +286,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class would you use for a letter-spacing of -0.05em?",
     answers: [
-      { answer: "tracking-tight", isCorrect: true },
       { answer: "tracking-tighter", isCorrect: false },
       { answer: "tracking-normal", isCorrect: false },
       { answer: "tracking-narrow", isCorrect: false },
+      { answer: "tracking-tight", isCorrect: true },
     ],
     correctAnswer: { answer: "tracking-tight", isCorrect: true },
     didAnswer: null,
@@ -297,8 +297,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What does the class 'leading-snug' do?",
     answers: [
-      { answer: "Sets line-height to 1.375", isCorrect: true },
       { answer: "Sets line-height to 1.5", isCorrect: false },
+      { answer: "Sets line-height to 1.375", isCorrect: true },
       { answer: "Sets line-height to 1.25", isCorrect: false },
       { answer: "Sets line-height to 1.75", isCorrect: false },
     ],
@@ -308,9 +308,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "What is the line-height applied by 'leading-none'?",
     answers: [
-      { answer: "line-height: 1", isCorrect: true },
       { answer: "line-height: 0", isCorrect: false },
       { answer: "line-height: 1.25", isCorrect: false },
+      { answer: "line-height: 1", isCorrect: true },
       { answer: "line-height: 1.5", isCorrect: false },
     ],
     correctAnswer: { answer: "line-height: 1", isCorrect: true },
@@ -611,8 +611,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What does `rounded-full` do?",
     answers: [
-      { answer: "Applies maximum border-radius", isCorrect: true },
       { answer: "Creates a circular svg shape", isCorrect: false },
+      { answer: "Applies maximum border-radius", isCorrect: true },
       { answer: "Rounds all corners to 9px", isCorrect: false },
       { answer: "Makes elements square", isCorrect: false },
     ],
@@ -637,8 +637,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class adds a black border?",
     answers: [
-      { answer: "border-black", isCorrect: true },
       { answer: "border-fuchsia-900", isCorrect: false },
+      { answer: "border-black", isCorrect: true },
       { answer: "border-heavy", isCorrect: false },
       { answer: "border-dark", isCorrect: false },
     ],
@@ -648,9 +648,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class makes an element's background color green?",
     answers: [
-      { answer: "bg-green-300", isCorrect: true },
       { answer: "background-green", isCorrect: false },
       { answer: "bg-light-green", isCorrect: false },
+      { answer: "bg-green-300", isCorrect: true },
       { answer: "bg-green-dark", isCorrect: false },
     ],
     correctAnswer: { answer: "bg-green-300", isCorrect: true },
@@ -659,8 +659,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class is used to apply a rounded border radius?",
     answers: [
-      { answer: "rounded-md", isCorrect: true },
       { answer: "border-radius-md", isCorrect: false },
+      { answer: "rounded-md", isCorrect: true },
       { answer: "rounded-large", isCorrect: false },
       { answer: "radius-md", isCorrect: false },
     ],
@@ -670,8 +670,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class applies a shadow effect to an element?",
     answers: [
-      { answer: "shadow-lg", isCorrect: true },
       { answer: "shadow-heavy", isCorrect: false },
+      { answer: "shadow-lg", isCorrect: true },
       { answer: "shadow-large", isCorrect: false },
       { answer: "shadow-light", isCorrect: false },
     ],
@@ -692,8 +692,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class is used to add a linear gradient background?",
     answers: [
-      { answer: "bg-gradient-to-r", isCorrect: true },
       { answer: "bg-gradient", isCorrect: false },
+      { answer: "bg-gradient-to-r", isCorrect: true },
       { answer: "gradient-r", isCorrect: false },
       { answer: "bg-gradient-linear", isCorrect: false },
     ],
@@ -703,8 +703,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class applies a grid layout with two columns?",
     answers: [
-      { answer: "grid-cols-2", isCorrect: true },
       { answer: "grid-layout-2", isCorrect: false },
+      { answer: "grid-cols-2", isCorrect: true },
       { answer: "cols-2", isCorrect: false },
       { answer: "grid-2-cols", isCorrect: false },
     ],
@@ -714,10 +714,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class sets the z-index of an element to a high value?",
     answers: [
-      { answer: "z-50", isCorrect: true },
       { answer: "z-high", isCorrect: false },
       { answer: "z-100", isCorrect: false },
       { answer: "z-top", isCorrect: false },
+      { answer: "z-50", isCorrect: true },
     ],
     correctAnswer: { answer: "z-50", isCorrect: true },
     didAnswer: null,
@@ -725,9 +725,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class makes an element's border color transparent?",
     answers: [
-      { answer: "border-transparent", isCorrect: true },
       { answer: "border-none", isCorrect: false },
       { answer: "border-clear", isCorrect: false },
+      { answer: "border-transparent", isCorrect: true },
       { answer: "border-opacity-0", isCorrect: false },
     ],
     correctAnswer: { answer: "border-transparent", isCorrect: true },
@@ -736,10 +736,10 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class controls the opacity of an element?",
     answers: [
-      { answer: "opacity-75", isCorrect: true },
       { answer: "transparency-75", isCorrect: false },
       { answer: "opacity-high", isCorrect: false },
       { answer: "visibility-75", isCorrect: false },
+      { answer: "opacity-75", isCorrect: true },
     ],
     correctAnswer: { answer: "opacity-75", isCorrect: true },
     didAnswer: null,
@@ -748,9 +748,9 @@ export const QUESTIONS: Question[] = [
     question:
       "Which class applies a transition effect to an element's opacity?",
     answers: [
-      { answer: "transition-opacity", isCorrect: true },
       { answer: "opacity-transition", isCorrect: false },
       { answer: "fade-transition", isCorrect: false },
+      { answer: "transition-opacity", isCorrect: true },
       { answer: "transition-opacity-effect", isCorrect: false },
     ],
     correctAnswer: { answer: "transition-opacity", isCorrect: true },
@@ -759,8 +759,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class is used to change the cursor to a pointer?",
     answers: [
-      { answer: "cursor-pointer", isCorrect: true },
       { answer: "pointer-cursor", isCorrect: false },
+      { answer: "cursor-pointer", isCorrect: true },
       { answer: "cursor-hand", isCorrect: false },
       { answer: "clickable", isCorrect: false },
     ],
@@ -771,9 +771,9 @@ export const QUESTIONS: Question[] = [
     question:
       "What class applies padding only to the right side of an element?",
     answers: [
-      { answer: "pr-4", isCorrect: true },
       { answer: "padding-right-4", isCorrect: false },
       { answer: "px-4", isCorrect: false },
+      { answer: "pr-4", isCorrect: true },
       { answer: "padding-r-4", isCorrect: false },
     ],
     correctAnswer: { answer: "pr-4", isCorrect: true },
@@ -782,9 +782,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class sets the opacity of an element to 50%?",
     answers: [
-      { answer: "opacity-50", isCorrect: true },
       { answer: "opacity-0.5", isCorrect: false },
       { answer: "transparency-50", isCorrect: false },
+      { answer: "opacity-50", isCorrect: true },
       { answer: "alpha-50", isCorrect: false },
     ],
     correctAnswer: { answer: "opacity-50", isCorrect: true },
@@ -816,9 +816,9 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class applies a 2-pixel border width?",
     answers: [
-      { answer: "border-2", isCorrect: true },
       { answer: "border-width-2", isCorrect: false },
       { answer: "border-thin", isCorrect: false },
+      { answer: "border-2", isCorrect: true },
       { answer: "border-medium", isCorrect: false },
     ],
     correctAnswer: { answer: "border-2", isCorrect: true },
@@ -827,8 +827,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "Which class adds padding on the top and bottom only?",
     answers: [
-      { answer: "py-4", isCorrect: true },
       { answer: "px-4", isCorrect: false },
+      { answer: "py-4", isCorrect: true },
       { answer: "padding-md", isCorrect: false },
       { answer: "padding-4", isCorrect: false },
     ],
@@ -838,8 +838,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "How do you apply a blur effect of 4px?",
     answers: [
-      { answer: "blur-sm", isCorrect: true },
       { answer: "blur-md", isCorrect: false },
+      { answer: "blur-sm", isCorrect: true },
       { answer: "blur-lg", isCorrect: false },
       { answer: "blur-none", isCorrect: false },
     ],
@@ -849,8 +849,8 @@ export const QUESTIONS: Question[] = [
   {
     question: "What does `text-stone-500` apply?",
     answers: [
-      { answer: "Applies a red-ish text color", isCorrect: true },
       { answer: "Applies a brown-ish text color", isCorrect: false },
+      { answer: "Applies a red-ish text color", isCorrect: true },
       { answer: "Applies a gray-ish text color", isCorrect: false },
       { answer: "Applies a black text color", isCorrect: false },
     ],
