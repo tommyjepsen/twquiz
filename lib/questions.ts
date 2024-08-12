@@ -1,0 +1,430 @@
+import { Question } from "@/app/page";
+
+export const QUESTIONS: Question[] = [
+  {
+    question: "How many pixels height is `h-36`?",
+    answers: [
+      { answer: "140px", isCorrect: false },
+      { answer: "148px", isCorrect: false },
+      { answer: "144px", isCorrect: true },
+      { answer: "142px", isCorrect: false },
+    ],
+    correctAnswer: { answer: "144px", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class is used to break a word mid-line?",
+    answers: [
+      { answer: "word-break", isCorrect: false },
+      { answer: "break-all", isCorrect: false },
+      { answer: "break-words", isCorrect: true },
+      { answer: "word-wrap", isCorrect: false },
+    ],
+    correctAnswer: { answer: "break-words", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `bg-indigo-500` apply?",
+    answers: [
+      { answer: "A medium shade of indigo background", isCorrect: true },
+      { answer: "A light indigo border", isCorrect: false },
+      { answer: "An indigo text color", isCorrect: false },
+      { answer: "A dark indigo shadow", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "A medium shade of indigo background",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "Which class sets an element's margin to 1rem?",
+    answers: [
+      { answer: "m-16", isCorrect: false },
+      { answer: "m-8", isCorrect: false },
+      { answer: "m-4", isCorrect: true },
+      { answer: "m-2", isCorrect: false },
+    ],
+    correctAnswer: { answer: "m-4", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class is used for setting the width to full?",
+    answers: [
+      { answer: "w-100", isCorrect: false },
+      { answer: "w-complete", isCorrect: false },
+      { answer: "w-total", isCorrect: false },
+      { answer: "w-full", isCorrect: true },
+    ],
+    correctAnswer: { answer: "w-full", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `text-center` do?",
+    answers: [
+      { answer: "Aligns text to the middle of its container", isCorrect: true },
+      { answer: "Centers the text vertically", isCorrect: false },
+      { answer: "Justifies text content", isCorrect: false },
+      { answer: "Applies center-aligned background", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Aligns text to the middle of its container",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "What is the purpose of `flex-col`?",
+    answers: [
+      { answer: "Aligns flex items vertically", isCorrect: true },
+      { answer: "Creates a column-based grid", isCorrect: false },
+      { answer: "Sets flex-grow to column", isCorrect: false },
+      { answer: "Applies column-reverse to flexbox", isCorrect: false },
+    ],
+    correctAnswer: { answer: "Aligns flex items vertically", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class makes the text bold?",
+    answers: [
+      { answer: "font-heavy", isCorrect: false },
+      { answer: "font-strong", isCorrect: false },
+      { answer: "font-thick", isCorrect: false },
+      { answer: "font-bold", isCorrect: true },
+    ],
+    correctAnswer: { answer: "font-bold", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a rounded border of 0.25rem?",
+    answers: [
+      { answer: "rounded-4", isCorrect: false },
+      { answer: "rounded-quarter", isCorrect: false },
+      { answer: "rounded-md", isCorrect: true },
+      { answer: "rounded-0.25", isCorrect: false },
+    ],
+    correctAnswer: { answer: "rounded-md", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What class adds a medium shadow effect?",
+    answers: [
+      { answer: "shadow", isCorrect: false },
+      { answer: "shadow-md", isCorrect: true },
+      { answer: "shadow-medium", isCorrect: false },
+      { answer: "shadow-normal", isCorrect: false },
+    ],
+    correctAnswer: { answer: "shadow-md", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class adds an underline to text?",
+    answers: [
+      { answer: "text-underline", isCorrect: false },
+      { answer: "decoration-under", isCorrect: false },
+      { answer: "underline", isCorrect: true },
+      { answer: "text-line-bottom", isCorrect: false },
+    ],
+    correctAnswer: { answer: "underline", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class makes an element's width 50% of its parent?",
+    answers: [
+      { answer: "w-50", isCorrect: false },
+      { answer: "w-2/4", isCorrect: false },
+      { answer: "w-1/2", isCorrect: true },
+      { answer: "w-half", isCorrect: false },
+    ],
+    correctAnswer: { answer: "w-1/2", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a max-width of 768px?",
+    answers: [
+      { answer: "max-w-768", isCorrect: false },
+      { answer: "max-w-medium", isCorrect: false },
+      { answer: "max-w-lg", isCorrect: true },
+      { answer: "max-w-tablet", isCorrect: false },
+    ],
+    correctAnswer: { answer: "max-w-lg", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class hides an element?",
+    answers: [
+      { answer: "display-none", isCorrect: false },
+      { answer: "hidden", isCorrect: true },
+      { answer: "visibility-hidden", isCorrect: false },
+      { answer: "hide", isCorrect: false },
+    ],
+    correctAnswer: { answer: "hidden", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply horizontal padding of 2rem?",
+    answers: [
+      { answer: "p-x-8", isCorrect: false },
+      { answer: "padding-x-2", isCorrect: false },
+      { answer: "px-8", isCorrect: true },
+      { answer: "ph-2", isCorrect: false },
+    ],
+    correctAnswer: { answer: "px-8", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `italic` class do?",
+    answers: [
+      { answer: "Applies a slanted style to text", isCorrect: true },
+      { answer: "Increases letter spacing", isCorrect: false },
+      { answer: "Decreases font weight", isCorrect: false },
+      { answer: "Changes font family to cursive", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Applies a slanted style to text",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "Which class is used for uppercase text?",
+    answers: [
+      { answer: "text-upper", isCorrect: false },
+      { answer: "caps", isCorrect: false },
+      { answer: "uppercase", isCorrect: true },
+      { answer: "all-caps", isCorrect: false },
+    ],
+    correctAnswer: { answer: "uppercase", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a border of 2px?",
+    answers: [
+      { answer: "border-width-2", isCorrect: false },
+      { answer: "border-2px", isCorrect: false },
+      { answer: "border-2", isCorrect: true },
+      { answer: "b-2", isCorrect: false },
+    ],
+    correctAnswer: { answer: "border-2", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies a medium red background?",
+    answers: [
+      { answer: "bg-red", isCorrect: false },
+      { answer: "bg-red-medium", isCorrect: false },
+      { answer: "bg-red-500", isCorrect: true },
+      { answer: "background-red", isCorrect: false },
+    ],
+    correctAnswer: { answer: "bg-red-500", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you make text unselectable?",
+    answers: [
+      { answer: "no-select", isCorrect: false },
+      { answer: "select-none", isCorrect: true },
+      { answer: "unselectable", isCorrect: false },
+      { answer: "prevent-select", isCorrect: false },
+    ],
+    correctAnswer: { answer: "select-none", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `grid-cols-3` do?",
+    answers: [
+      { answer: "Creates a grid with 3 equal columns", isCorrect: true },
+      { answer: "Sets grid-column-start to 3", isCorrect: false },
+      { answer: "Applies a 3-column span to grid items", isCorrect: false },
+      { answer: "Creates 3 row tracks in a grid", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Creates a grid with 3 equal columns",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies 100% height?",
+    answers: [
+      { answer: "height-full", isCorrect: false },
+      { answer: "h-100%", isCorrect: false },
+      { answer: "h-full", isCorrect: true },
+      { answer: "height-100", isCorrect: false },
+    ],
+    correctAnswer: { answer: "h-full", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a horizontal rule?",
+    answers: [
+      { answer: "horizontal-line", isCorrect: false },
+      { answer: "hr", isCorrect: true },
+      { answer: "divider", isCorrect: false },
+      { answer: "line-x", isCorrect: false },
+    ],
+    correctAnswer: { answer: "hr", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class sets an element to flex display?",
+    answers: [
+      { answer: "display-flex", isCorrect: false },
+      { answer: "d-flex", isCorrect: false },
+      { answer: "flex", isCorrect: true },
+      { answer: "flexbox", isCorrect: false },
+    ],
+    correctAnswer: { answer: "flex", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What is the default display behavior of `hidden`?",
+    answers: [
+      { answer: "visibility: collapse;", isCorrect: false },
+      { answer: "opacity: 0; visibility: hidden;", isCorrect: false },
+      { answer: "display: none;", isCorrect: true },
+      { answer: "position: absolute; left: -9999px;", isCorrect: false },
+    ],
+    correctAnswer: { answer: "display: none;", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply padding on all sides of 1.5rem?",
+    answers: [
+      { answer: "p-1.5", isCorrect: false },
+      { answer: "padding-6", isCorrect: false },
+      { answer: "p-6", isCorrect: true },
+      { answer: "p-24", isCorrect: false },
+    ],
+    correctAnswer: { answer: "p-6", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies a white text color?",
+    answers: [
+      { answer: "color-white", isCorrect: false },
+      { answer: "text-#fff", isCorrect: false },
+      { answer: "text-white", isCorrect: true },
+      { answer: "font-color-white", isCorrect: false },
+    ],
+    correctAnswer: { answer: "text-white", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `bg-opacity-50` do?",
+    answers: [
+      { answer: "Sets element opacity to 50%", isCorrect: false },
+      { answer: "Sets background opacity to 50%", isCorrect: true },
+      { answer: "Applies a 50% transparent overlay", isCorrect: false },
+      { answer: "Reduces color intensity by 50%", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Sets background opacity to 50%",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "How do you add a gap of 1rem between flex items?",
+    answers: [
+      { answer: "space-x-4", isCorrect: false },
+      { answer: "flex-gap-4", isCorrect: false },
+      { answer: "gap-4", isCorrect: true },
+      { answer: "item-spacing-4", isCorrect: false },
+    ],
+    correctAnswer: { answer: "gap-4", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class sets a max-height of 16rem?",
+    answers: [
+      { answer: "mh-64", isCorrect: false },
+      { answer: "max-height-16", isCorrect: false },
+      { answer: "max-h-64", isCorrect: true },
+      { answer: "height-max-16", isCorrect: false },
+    ],
+    correctAnswer: { answer: "max-h-64", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `rounded-full` do?",
+    answers: [
+      { answer: "Applies maximum border-radius", isCorrect: true },
+      { answer: "Creates a circular shape", isCorrect: false },
+      { answer: "Rounds all corners to 9999px", isCorrect: false },
+      { answer: "Applies 50% border-radius to all corners", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Applies maximum border-radius",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a flex container with items spaced evenly?",
+    answers: [
+      { answer: "space-evenly", isCorrect: false },
+      { answer: "justify-evenly", isCorrect: false },
+      { answer: "justify-between", isCorrect: true },
+      { answer: "flex-space-between", isCorrect: false },
+    ],
+    correctAnswer: { answer: "justify-between", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class applies a shadow effect that increases on hover?",
+    answers: [
+      { answer: "hover:shadow-sm", isCorrect: false },
+      { answer: "hover:shadow-none", isCorrect: false },
+    ],
+    correctAnswer: { answer: "hover:shadow-lg", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply rounded corners on the top side only?",
+    answers: [
+      { answer: "rounded-t", isCorrect: true },
+      { answer: "rounded-t-md", isCorrect: false },
+      { answer: "rounded-top", isCorrect: false },
+      { answer: "rounded-tr-md", isCorrect: false },
+    ],
+    correctAnswer: { answer: "rounded-t", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "Which class adds a black border?",
+    answers: [
+      { answer: "border-black", isCorrect: true },
+      { answer: "border-gray-900", isCorrect: false },
+      { answer: "border-heavy", isCorrect: false },
+      { answer: "border-dark", isCorrect: false },
+    ],
+    correctAnswer: { answer: "border-black", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "How do you apply a blur effect of 4px?",
+    answers: [
+      { answer: "blur-sm", isCorrect: true },
+      { answer: "blur-md", isCorrect: false },
+      { answer: "blur-lg", isCorrect: false },
+      { answer: "blur-none", isCorrect: false },
+    ],
+    correctAnswer: { answer: "blur-sm", isCorrect: true },
+    didAnswer: null,
+  },
+  {
+    question: "What does `text-gray-700` apply?",
+    answers: [
+      { answer: "Applies a medium-gray text color", isCorrect: true },
+      { answer: "Applies a light-gray text color", isCorrect: false },
+      { answer: "Applies a dark-gray text color", isCorrect: false },
+      { answer: "Applies a black text color", isCorrect: false },
+    ],
+    correctAnswer: {
+      answer: "Applies a medium-gray text color",
+      isCorrect: true,
+    },
+    didAnswer: null,
+  },
+];
