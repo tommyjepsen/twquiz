@@ -356,6 +356,16 @@ export default function Home() {
             </Button>
           </CardFooter>
         </Card>
+        <div className="text-center mt-8 text-xs dark:text-zinc-400 text-dark-600">
+          Made by{" "}
+          <a
+            href="https://linkedin.com/in/toje"
+            className="text-zinc-950 dark:text-white"
+            target="_blank"
+          >
+            @Tommy ✌️
+          </a>
+        </div>
       </div>
     </main>
   );

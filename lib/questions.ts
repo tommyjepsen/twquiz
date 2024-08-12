@@ -273,7 +273,7 @@ export const QUESTIONS: Question[] = [
     didAnswer: null,
   },
   {
-    question: "Which Tailwind CSS class applies a letter-spacing of 0.05em?",
+    question: "Which class applies a letter-spacing of 0.05em?",
     answers: [
       { answer: "tracking-wider", isCorrect: true },
       { answer: "tracking-wide", isCorrect: false },
@@ -363,7 +363,7 @@ export const QUESTIONS: Question[] = [
   {
     question: "What class adds a medium shadow effect?",
     answers: [
-      { answer: "shadow", isCorrect: false },
+      { answer: "s-md", isCorrect: false },
       { answer: "shadow-md", isCorrect: true },
       { answer: "shadow-medium", isCorrect: false },
       { answer: "shadow-normal", isCorrect: false },
@@ -416,7 +416,7 @@ export const QUESTIONS: Question[] = [
     didAnswer: null,
   },
   {
-    question: "Which Tailwind CSS class sets the border spacing to 4px?",
+    question: "Which class sets the border spacing to 4px?",
     answers: [
       { answer: "border-spacing-1", isCorrect: true },
       { answer: "border-spacing-2", isCorrect: false },
