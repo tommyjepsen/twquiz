@@ -17,6 +17,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { Chart } from "@/components/chart";
 import { CheckIcon, XIcon } from "lucide-react";
+import { CreatorWidget, CreatorModalSection } from "@/components/creator-widget";
 
 export interface Question {
   question: string;
@@ -171,15 +172,16 @@ export default function Home() {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="w-[360px] shadow-xl bg-zinc-100 border dark:bg-accent rounded-xl p-6 flex flex-col gap-2">
-            <h1 className="text-2xl">Tailwind expert?</h1>
-            <p className="opacity-70 mb-6">
+            <h1 className="text-2xl font-bold">Tailwind expert?</h1>
+            <p className="opacity-70 mb-4 text-sm">
               Take my quiz about Tailwind classes and see how many correct
               answers you can get within 30 seconds.
             </p>
-            <Button onClick={tryOnMoreTime}>Start game</Button>
-            <Button variant="ghost" onClick={onShareLinkToGame}>
+            <Button onClick={tryOnMoreTime} className="w-full">Start game</Button>
+            <Button variant="ghost" onClick={onShareLinkToGame} className="w-full">
               Copy link to game
             </Button>
+            <CreatorModalSection title="Created by" />
           </div>
         </div>
       )}
@@ -189,27 +191,32 @@ export default function Home() {
           onClick={(e) => e.stopPropagation()}
         >
           <div className=" bg-zinc-100 border flex-row dark:bg-accent shadow-xl rounded-xl p-6 flex gap-2">
-            <div className="w-[360px] border-r p-6 flex flex-col gap-2">
-              <h1 className="text-2xl">Tailwind expert?</h1>
-              <p className="opacity-70">Let{"'"}s take a look at your scores</p>
-              <div className="flex justify-center flex-col items-center h-52">
-                <span className="text-emerald-500 font-medium leading-none text-[140px]">
-                  {onGetCorrectAnswers()}
-                </span>
-                <span className="text-emerald-500/80 font-medium text-base">
-                  correct
-                </span>
+            <div className="w-[360px] border-r pr-6 flex flex-col gap-2 justify-between">
+              <div>
+                <h1 className="text-2xl font-bold">Tailwind expert?</h1>
+                <p className="opacity-70 text-sm">Let{"'"}s take a look at your scores</p>
+                <div className="flex justify-center flex-col items-center h-32">
+                  <span className="text-emerald-500 font-semibold leading-none text-[80px]">
+                    {onGetCorrectAnswers()}
+                  </span>
+                  <span className="text-emerald-500/80 font-medium text-xs">
+                    correct
+                  </span>
+                </div>
+                <div className="text-center text-sm mb-4">
+                  ...and{" "}
+                  <span className="text-rose-500 font-semibold">
+                    {onGetIncorrectAnswers()} incorrect
+                  </span>
+                </div>
               </div>
-              <div className="text-center mb-8">
-                ...and{" "}
-                <span className="text-rose-500">
-                  {onGetIncorrectAnswers()} incorrect
-                </span>
+              <div className="flex flex-col gap-2">
+                <Button onClick={tryOnMoreTime} className="w-full">Try one more time</Button>
+                <Button variant="ghost" onClick={onShareLinkToGame} className="w-full">
+                  Copy link to game
+                </Button>
+                <CreatorModalSection title="Connect with the creator" />
               </div>
-              <Button onClick={tryOnMoreTime}>Try one more time</Button>
-              <Button variant="ghost" onClick={onShareLinkToGame}>
-                Copy link to game
-              </Button>
             </div>
             <div className="h-full  pl-6  max-w-[360px] gap-8 flex flex-col max-h-[480px] overflow-y-auto">
               <p className="text-zinc-400 pt-6">Questions answered</p>
@@ -277,10 +284,10 @@ export default function Home() {
                 countDownNumber == 1 || countDownNumber == 0
                   ? "text-red-500"
                   : countDownNumber == 2
-                  ? "text-orange-500"
-                  : countDownNumber == 3
-                  ? "text-yellow-500"
-                  : "dark:text-white",
+                    ? "text-orange-500"
+                    : countDownNumber == 3
+                      ? "text-yellow-500"
+                      : "dark:text-white",
                 "font-bold"
               )}
             >
@@ -340,7 +347,7 @@ export default function Home() {
                   {answer.answer}
                   {answer.isCorrect &&
                     answer.answer ===
-                      questions[questionNumber].didAnswer?.answer && (
+                    questions[questionNumber].didAnswer?.answer && (
                       <CheckIcon className="h-4 w-4" />
                     )}
                 </Button>
@@ -357,16 +364,18 @@ export default function Home() {
           </CardFooter>
         </Card>
         <div className="text-center mt-8 text-xs dark:text-zinc-400 text-dark-600">
-          Made by{" "}
+          Made with ⚡️ by{" "}
           <a
             href="https://linkedin.com/in/toje"
-            className="text-zinc-950 dark:text-white"
+            className="text-zinc-950 dark:text-white font-medium hover:underline hover:text-blue-500 transition-colors underline"
             target="_blank"
+            rel="noopener noreferrer"
           >
             @Tommy ✌️
           </a>
         </div>
       </div>
+      <CreatorWidget />
     </main>
   );
 }
